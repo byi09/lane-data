@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+   <html>
+   <head>
+   <title>Lanes Visualization</title>
+   <meta charset="utf-8" />
+   <!-- Include Leaflet CSS -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+   <!-- Include custom CSS -->
+   <link rel="stylesheet" href="static/css/styles.css" />
+   </head>
+   <body>
+   <div class="controls">
+   <label for="type_names">Type Names:</label>
+   <input type="text" id="type_names" name="type_names" placeholder="Enter type_names" />
+   <label for="semantic_description">Semantic Description:</label>
+   <input type="text" id="semantic_description" name="semantic_description" placeholder="Enter semantic_description" />
+   <button id="filterBtn">Filter</button>
+   </div>
+   <div id="map"></div>
+   <!-- Include Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+   <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <!-- Include custom JS -->
+    <script src="static/js/main.js"></script>
+   </body>
+   </html>
